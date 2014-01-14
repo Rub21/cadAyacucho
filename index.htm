@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  
+  <head>
+    <title>Cad Ayacucho</title>
+    <meta charset='utf-8' />
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
+    <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+      <link rel='stylesheet' href='css/style.css' />
+      <link href='http://api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.css' rel='stylesheet' />
+      <script src='http://api.tiles.mapbox.com/mapbox.js/v1.4.2/mapbox.js'></script>
+    </head>
+    <body>
+      <div id='map'></div>
+      <div id='sidebar'>
+        
+        <h1>CAD Ayacucho</h1>
+        <ul id='layerswitcher'>
+          
+          <li><a href='#' id='1' class='active'>Ciudad de Ayacucho</a></li>
+          <li><a href='#' id='2'>Relives de Ayacucho</a></li>
+          <li><a href='#' id='3'>Recorrido de Rutas de transporte</a></li>
+          
+        </ul>
+        <div id='tooltips'>
+          <div id="leg_ciud">
+            <div class="legend_ciu">
+              <center>Capas de la ciudad</center></b>
+              <span style="color:#e9fae1">▉</span> Area Verde <br>
+              <span style="color:#fffadd">▉</span>Zonas Arqueologicas <br>
+              <span style="color:#fafafa">▉</span>Manzanas<br>
+              <span style="color:#d4ed99">▉</span> Parques <br>
+              <span style="color:#f4ebf5">▉</span>Colegios <br>
+              <span style="color:#f5efbb">▉</span>Centro de Salud <br>
+              <span style="color:#fae8e8">▉</span> Aeropuerto <br>
+              <span style="color:#b2f5f6">▉</span> Lagunas <br>
+              <span style="color: #FFCCBB">━</span> Via Central<br>
+              <span style="color:#CCCC99">━</span> Via Intermedia <br>
+              <span style="color:#ebfb79">━</span> Via Alterna <br>
+              <span style="color:#fad185">━</span> Via Interregional <br>
+              <span style="color:#e9fae1">━</span> Rios
+            </div>
+          </div>
+          <div id="leg_rel">
+            <div class="legend_rel">
+                <center>Capas de la ciudad</center></b>
+              <span style="color:#e9fae1">▉</span> Area Verde <br>
+              <span style="color:#fffadd">▉</span>Zonas Arqueologicas <br>
+              <span style="color:#fafafa">▉</span>Manzanas<br>
+              <span style="color:#d4ed99">▉</span> Parques <br>
+              <span style="color:#f4ebf5">▉</span>Colegios <br>
+              <span style="color:#f5efbb">▉</span>Centro de Salud <br>
+              <span style="color:#fae8e8">▉</span> Aeropuerto <br>
+              <span style="color:#b2f5f6">▉</span> Lagunas <br>
+              <span style="color: #FFCCBB">━</span> Via Central<br>
+              <span style="color:#CCCC99">━</span> Via Intermedia <br>
+              <span style="color:#ebfb79">━</span> Via Alterna <br>
+              <span style="color:#fad185">━</span> Via Interregional <br>
+              <span style="color:#e9fae1">━</span> Rios
+            </div>
+          </div>
+          <div id="leg_rut">
+            <div class="legend_rutas"><b>
+              <center>Rutas de Transporte Urbano</center></b>
+              <span style="color:#cccc99">━</span> Ruta 1 <br>
+              <span style="color:#946EA2">━</span> Ruta 2 <br>
+              <span style="color:#F68545">━</span> Ruta 3 <br>
+              <span style="color:#F7F547">━</span> Ruta 4 <br>
+              <span style="color:#E92101">━</span> Ruta 5 <br>
+              <span style="color:#B8F0BC">━</span> Ruta 6 <br>
+              <span style="color:#F60F9F">━</span> Ruta 7 <br>
+              <span style="color:#2F9323">━</span> Ruta 8 <br>
+              <span style="color:#fc70ad">━</span> Ruta 9 <br>
+              <span style="color:#00ffff">━</span> Ruta 10 <br>
+              <span style="color:#f6b54f">━</span> Ruta 11 <br>
+              <span style="color:#ff0000">━</span> Ruta 12 <br>
+              <span style="color:#07265c">━</span> Ruta 13 <br>
+              <span style="color:#ff8d18">━</span> Ruta 14 <br>
+              <span style="color:#0f92f3">━</span> Ruta 15 <br>
+              <span style="color:#56b3a8">━</span> Ruta 16 <br>
+              <span style="color:#c29903">━</span> Ruta 18
+            </div>
+          </div>
+        </div>
+      </div>
+       <script src='id.js'></script>
+      <script src='app.js'></script>
+    </body>
+  </html>
